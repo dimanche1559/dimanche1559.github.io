@@ -13,18 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
+
+# theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
-locale: en-US
+
+locale: ko-KR
 title: "DIMANCHE"
 description: "It really is the best."
 baseurl: ""
 url: https://dimanche1559.github.io/
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true
 words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -47,14 +49,14 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
+category_archive_path: "/categories/#"
 # tag_archive_path: "/tags/#"
 
 # Exclude from processing.
@@ -87,9 +89,9 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Dimanche
   picture:
-  email:
+  email: dimanche1559@gmail.com
   twitter:
   links:
     - title:
