@@ -2,7 +2,7 @@
 title: "Test Project"
 image: 
   path: /images/oatmeal-cookies-lg.jpg
-  thumbnail: /images/oatmeal-cookies-400x200.jpg
+  thumbnail: /images/chocolate-chip-cookies-400x200.jpg
   caption: "Photo from [Pexels](https://www.pexels.com)"
 ---
 
