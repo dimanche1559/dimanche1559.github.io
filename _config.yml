@@ -20,8 +20,8 @@ remote_theme: mmistakes/so-simple-theme
 locale: ko-KR
 title: "DIMANCHE"
 description: "It really is the best."
-baseurl: ""
-url: https://dimanche1559.github.io/
+baseurl: "/"
+url: "https://dimanche1559.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
@@ -91,8 +91,9 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: false
       share: true
-  # Recipe defaults
+  # Projects defaults
   - scope:
       path: "_projects"
       type: projects
