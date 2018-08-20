@@ -22,7 +22,7 @@ title: "DIMANCHE"
 description: "It really is the best."
 baseurl: "/"
 url: "https://dimanche1559.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/images/dimanche_profile.jpeg"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: # 200
@@ -105,7 +105,7 @@ defaults:
 # Site Author
 author:
   name: Dimanche
-  picture:
+  picture: /images/dimanche_profile.jpeg
   email: dimanche1559@gmail.com
   twitter:
   links:
